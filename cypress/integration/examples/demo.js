@@ -6,5 +6,5 @@ context ('Given I access Rose blog', () => {
         cy.get('._2ekub > :nth-child(1)').click()
         cy.get('#content-wrapper').contains('Rose Blackburn')
 
-    });
+    })
 })
